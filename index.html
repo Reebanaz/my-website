@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Clothing Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">ClothesShop</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250" alt="T-Shirt" />
+        <h3>Classic T-Shirt</h3>
+        <p>$19.99</p>
+        <button onclick="addToCart('Classic T-Shirt')">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250" alt="Jeans" />
+        <h3>Blue Jeans</h3>
+        <p>$39.99</p>
+        <button onclick="addToCart('Blue Jeans')">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250" alt="Jacket" />
+        <h3>Leather Jacket</h3>
+        <p>$89.99</p>
+        <button onclick="addToCart('Leather Jacket')">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ClothesShop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
